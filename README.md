@@ -19,9 +19,9 @@ see ["Command-line switches for Microsoft Office products"](https://support.micr
 
 - A cascaded context menu is defined for the current user (HKCU) using registry entries
 - This menu is displayed at the top of the context menu when an Excel file is selected
-- This menu is also displayed when it is called up in an empty area of the file explorer.<br />
-However, no longer at the top, and only with the menu items for starting Excel
-- the start option "/p", which is supposed to set the working directory for Excel, does not work and was not used.
+- This menu is also displayed when it is called up in an empty area of the file explorer or when a folder is selected.<br />
+However, in that case, the context menu is no longer placed at the top of all menu items, and contains only menu items for starting Excel without opening any file
+- the start option "/p", which is supposed to set the working directory for Excel, unfortunately does not work and is therefore not used.
 - The menu entries are given shortcuts. As by default in Windows 11 the shortcuts in the context menu are not underlined (at the current time 2023-09-28), the character for the shortcut key is set in capital letters.
 
 [//]: # (> Note: Shortcuts are only displayed underlined if the corresponding system setting is activated:)

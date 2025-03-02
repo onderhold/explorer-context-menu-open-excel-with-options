@@ -20,8 +20,8 @@ siehe ["Command-line switches for Microsoft Office products"](https://support.mi
 - Mittels Registry-Einträgen wird für den aktuellen Benutzer (HKCU) ein kaskadiertes Kontextmenü definiert
 - Dieses Menu wird zuoberst im Kontextmenü angezeigt, wenn eine Excel-Datei selektiert ist
 - Das Menu wird auch angezeigt, wenn es bei einem Ordner oder in einem leeren Bereich des Dateiexplorers aufgerufen wird.<br />
-Allerdings nicht mehr zuoberst, und nur mit den Menüeinträgen für den Start von Excel
-- die Startoption "/p", mit der für Excel vermeintlich das Arbeitsverzeichnis sollte gesetzt werden können, funktioniert nicht und wurde nicht verwendet.
+Allerdings dann nicht mehr zuoberst, und nur mit Menüeinträgen für den Start von Excel, ohne dass eine Datei geöffnet würde
+- die Startoption "/p", mit der für Excel vermeintlich das Arbeitsverzeichnis sollte gesetzt werden können, funktioniert leider nicht und wird deshalb nicht verwendet.
 - Die Menüeinträge erhalten Shortcuts. Da in Windows 11 (zum aktuellen Zeipunkt 2023-09-28) die Shortcuts im Kontextmenü per Default ohne Unterstrich dargestellt werden, ist das Zeichen für die Shortcut-Taste in Grossbuchstaben gesetzt.
 
 
